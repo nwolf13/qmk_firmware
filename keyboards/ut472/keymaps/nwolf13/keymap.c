@@ -197,7 +197,7 @@ void L1_reset (qk_tap_dance_state_t *state, void *user_data) {
     case SINGLE_HOLD: layer_off(_RGB); break;
     case DOUBLE_TAP:  unregister_code(KC_QUOT); unregister_code(KC_RALT); break;
     case DOUBLE_HOLD: break;
-    case DOUBLE_SINGLE_TAP: unregister_code(KC_QUOT); unregister_code(KC_RALT); break; 
+    case DOUBLE_SINGLE_TAP: unregister_code(KC_QUOT); unregister_code(KC_RALT); break;
   }
   L1_state.state = 0;
 }
